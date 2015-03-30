@@ -28,8 +28,11 @@ function makeImageUrl(url_pattern, size_arr, id, size){
     throw new Error('id must be specified');
   }
   // default size is 300
-  size = size || 300;
-  size = validateSize(size_arr, size);
+  if(typeof size === 'undefined'){
+    size = size || 300;
+  } else {
+    size = validateSize(size_arr, size);
+  }
   // Album:
   //   [input]  001KH6924JPQ7a
   //   [output] http://i.gtimg.cn/music/photo/mid_album_500/7/a/001KH6924JPQ7a.jpg
