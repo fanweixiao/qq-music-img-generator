@@ -2,7 +2,7 @@ var assert = require('assert');
 
 var gnr = require('../index');
 
-describe('Artist Avatar', function(){
+describe('Artist avatar test', function(){
   describe('size=300, even if size is not specified', function(){
     it('should get 300px, even if size not specified', function(){
       'http://i.gtimg.cn/music/photo/mid_singer_300/7/a/001KH6924JPQ7a.jpg'.should.equal( gnr.makeArtistImageUrl('001KH6924JPQ7a', 300));
@@ -31,8 +31,7 @@ describe('Artist Avatar', function(){
   });
 });
 
-
-describe('Album Avatar', function(){
+describe('Album image test', function(){
   describe('size=300, even if size is not specified', function(){
     it('should get 300px, even if size not specified', function(){
       'http://i.gtimg.cn/music/photo/mid_album_300/7/a/001KH6924JPQ7a.jpg'.should.equal( gnr.makeAlbumImageUrl('001KH6924JPQ7a', 300));
