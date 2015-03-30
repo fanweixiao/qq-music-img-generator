@@ -1,8 +1,8 @@
 SRC = lib/*.js
-BIN = node
+BIN = iojs
 
-ifeq ($(findstring io.js, $(shell which iojs)),)
-	BIN = iojs
+ifeq ($(findstring io.js, $(shell which node)),)
+	BIN = node
 endif
 
 ifeq (node, $(BIN))
@@ -12,7 +12,7 @@ endif
 TESTS = test/*
 
 test:
-	@NODE_ENV=test $(BIN) $(FLAGS) \
+	NODE_ENV=test $(BIN) $(FLAGS) \
 					./node_modules/.bin/_mocha \
 					--require should \
 					$(TESTS) \
