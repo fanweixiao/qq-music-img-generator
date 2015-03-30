@@ -1,0 +1,35 @@
+{
+  "name": "qq-music-img-generator",
+  "version": "1.0.0",
+  "description": "QQ music artist/album image url generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanweixiao/qq-music-img-generator.git"
+  },
+  "keywords": [
+    "qq",
+    "music",
+    "sniffer",
+    "artist",
+    "album",
+    "image",
+    "avatar"
+  ],
+  "author": "fanweixiao@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fanweixiao/qq-music-img-generator/issues"
+  },
+  "homepage": "https://github.com/fanweixiao/qq-music-img-generator",
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  },
+  "dependencies": {
+    "debug": "^2.1.3"
+  }
+}
