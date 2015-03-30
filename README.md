@@ -1,4 +1,4 @@
-# qq-music-img-generator
+# qq-music-img-generator [![Build Status](https://travis-ci.org/fanweixiao/qq-music-img-generator.svg?branch=master)](https://travis-ci.org/fanweixiao/qq-music-img-generator)
 QQ Music artist/album image generator
 
 # Install
