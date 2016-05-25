@@ -26,10 +26,13 @@
   },
   "homepage": "https://github.com/fanweixiao/qq-music-img-generator",
   "devDependencies": {
-    "mocha": "^2.2.1",
-    "should": "^5.2.0"
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "mocha": "2.2.1",
+    "should": "5.2.0"
   },
   "dependencies": {
-    "debug": "^2.1.3"
+    "debug": "2.1.3"
   }
 }
